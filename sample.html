@@ -1,9 +1,15 @@
-# TableDnD - without jQuery
+<!DOCTYPE html>
+<html lang="pt">
 
-## Based on [Nabil codepen - drag and drop table with pure javascript](https://codepen.io/nabildroid/pen/ZPwYvp)
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table DnD</title>
 
-### How to use:
-```HTML
+    <link rel="stylesheet" href="src/css/style.css">
+  </head>
+
+  <body>
     <table class="table-dnd-midiauai">
 
       <thead>
@@ -43,10 +49,9 @@
       </tbody>
 
     </table>
-```
 
-```JS
     <script src="src/js/table-dnd.js"></script>
+
     <script>
       tableDnD('.table-dnd-midiauai', function () {
         console.log('Start');
@@ -56,4 +61,7 @@
         console.log('End')
       });
     </script>
-```
+
+  </body>
+
+</html>
