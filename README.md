@@ -1,4 +1,4 @@
-# TableDnD - without jQuery
+# Table Drag and Drop - without jQuery
 
 ## Based on [Nabil codepen - drag and drop table with pure javascript](https://codepen.io/nabildroid/pen/ZPwYvp)
 
